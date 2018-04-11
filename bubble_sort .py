@@ -1,5 +1,5 @@
 def bubble_sort(lists):
-    cout=len(lists)
+    count=len(lists)
     for i in range(count):
         for j in range(i+1,count):
             if lists[i]>lists[j]:
@@ -7,5 +7,5 @@ def bubble_sort(lists):
     return lists
         
 
-lists=[2,3,1,0,2,5,3]
+lists=[5,3,1,0,2,4,7]
 print(bubble_sort(lists))
